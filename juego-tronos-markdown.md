@@ -1,6 +1,6 @@
 ## 0- Como todas las tareas se entregaron a las 23:59 no me dí cuenta que esta acababa por la mañana, por eso la entrego tarde.
 
-### 1- Configuración dos ambitos e rangos de enderezos
+## 1- Configuración dos ambitos e rangos de enderezos
 
 - Rango de direcciones:
 
@@ -17,7 +17,7 @@
 ![](./images1/2024-11-16-23-23-07.png)
 
 
-### 2- Configuración de opcións
+## 2- Configuración de opcións
 
 Opciones red 11 stark
 
@@ -28,7 +28,7 @@ Opciones red 12 lanister
 ![images2](./images2/2024-11-16-22-35-19.png)
 
 
-### 3- Configuración da actualización
+## 3- Configuración da actualización
 
 Actualizaciones dns en ambos ámbitos DHCP (servidor tyrion, 2 interfaces y ámbitos)
 
@@ -43,12 +43,14 @@ Actualización DNS en el servidor ayra reg 11 - stark
 ![images3](./images3/2024-11-16-22-51-37.png)
 
 
-### 4- Vídeo no que o cliente renova a concesión, e se ve **a zona DNS** unha vez que o DHCP actualiza o DNS. **Tamén o cliente debe ser capaz de resolver o seu propio nome (non FQDN).**
+## 4- Vídeo no que o cliente renova a concesión, e se ve a zona DNS unha vez que o DHCP actualiza o DNS. Tamén o cliente debe ser capaz de resolver o seu propio nome (non FQDN).
 
-## [Enlace al vídeo de la renovación DHCP](https://youtu.be/-kqL-wYzICA)
+- Vídeo de la renovación DNS y resolución propio nombre (no FQDN)
+
+## [Enlace al vídeo](https://youtu.be/fzB_co86qUQ)
 
 
-### 5- Clientes das dúas subredes, amosando DNS, router e enderezo IP.
+## 5- Clientes das dúas subredes, amosando DNS, router e enderezo IP.
 
 
 - **Subred lanister.lan - 192.168.12.0**
@@ -74,15 +76,12 @@ Clientes
 ![images5](./images5/2024-11-17-16-15-57.png)
 
 
-
-
-
-### 6- Configuración dos servidores failover.
+## 6- Configuración dos servidores failover.
 
 
 ![images6](./images6/2024-11-16-22-39-58.png)
 
-### 7-Capturas dos clientes obtendo enderezos cos dous servidores failover encendidos, e con un acendido e outro apagado (de forma alterna)
+## 7-Capturas dos clientes obtendo enderezos cos dous servidores failover encendidos, e con un acendido e outro apagado (de forma alterna)
 
 
 ![images7](./images7/2024-11-17-00-51-25.png)
@@ -91,6 +90,6 @@ Clientes
 
 
 
-### Elimina a interface de rede 192.168.11.8 de tyrion, e configura o servizo DHCP Relay no router. Comproba que os equipos da rede stark.lan reciben a configuración de rede de xeito correcto. Inclúe as capturas necesarias.
+## Elimina a interface de rede 192.168.11.8 de tyrion, e configura o servizo DHCP Relay no router. Comproba que os equipos da rede stark.lan reciben a configuración de rede de xeito correcto. Inclúe as capturas necesarias.
 
 
