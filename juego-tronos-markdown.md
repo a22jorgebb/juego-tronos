@@ -51,6 +51,31 @@ Actualización DNS en el servidor ayra reg 11 - stark
 ### 5- Clientes das dúas subredes, amosando DNS, router e enderezo IP.
 
 
+- **Subred lanister.lan - 192.168.12.0**
+
+Clientes
+
+![images5](./images5/2024-11-17-16-12-28.png)
+
+
+- Servidor DHCP
+![images5](./images5/2024-11-17-16-13-45.png)
+
+
+
+- **Subred stark.lan - 192.168.11.0**
+
+Clientes
+
+![images5](./images5/2024-11-17-16-14-09.png)
+
+- Servidor DHCP
+
+![images5](./images5/2024-11-17-16-15-57.png)
+
+
+
+
 
 ### 6- Configuración dos servidores failover.
 
@@ -63,3 +88,9 @@ Actualización DNS en el servidor ayra reg 11 - stark
 ![images7](./images7/2024-11-17-00-51-25.png)
 
 ![images7](./images7/2024-11-17-00-53-02.png)
+
+
+
+### Elimina a interface de rede 192.168.11.8 de tyrion, e configura o servizo DHCP Relay no router. Comproba que os equipos da rede stark.lan reciben a configuración de rede de xeito correcto. Inclúe as capturas necesarias.
+
+
